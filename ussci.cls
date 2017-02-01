@@ -46,9 +46,9 @@
   \begin{center}%
   \let\footnote\thanks%
     {%
-    10th U. S. National Combustion Meeting\\%
+    10\textsuperscript{th} U. S. National Combustion Meeting\\%
     Organized by the Eastern States Section of the Combustion Institute\\%
-    April 23-26, 2017\\%
+    April 23--26, 2017\\%
     College Park, Maryland\par\vspace{\baselineskip}%
     }%
     {\fontsize{18pt}{21.6pt}\selectfont\@title \par}%
