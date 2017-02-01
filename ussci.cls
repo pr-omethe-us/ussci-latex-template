@@ -6,6 +6,10 @@
 
 \LoadClass{article}
 
+\RequirePackage{hyperref}
+\urlstyle{tt}
+\newcommand{\email}[1]{\href{mailto:{#1}}{\tt{\nolinkurl{#1}}}}
+
 \RequirePackage{calc}
 \RequirePackage{geometry}
 \geometry{
@@ -76,7 +80,3 @@
 
 \RequirePackage{titlesec}
 \titleformat{\section}{\normalfont\bfseries}{\thesection.\space}{0pt}{}
-
-\RequirePackage{hyperref}
-\urlstyle{tt}
-\newcommand{\email}[1]{\href{mailto:{#1}}{\tt{\nolinkurl{#1}}}}
