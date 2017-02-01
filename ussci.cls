@@ -1,5 +1,21 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                             ussci.cls
+%
+% LaTeX class for papers conforming to the United States Sections of
+% the Combustion Institue style guide.
+%
+% Authors:
+%     Bryan W. Weber, University of Connecticut
+%     Kyle E. Niemeyer, Oregon State University
+%
+% This work is licensed under the Creative Commons Attribution 4.0
+% International License. To view a copy of this license, visit
+% http://creativecommons.org/licenses/by/4.0/.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{ussci}[2017/01/12 v0.1]
+\ProvidesClass{ussci}[2017/02/01 v0.2
+ LaTeX document class for the USSCI]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions \relax
@@ -29,14 +45,23 @@
 \RequirePackage[utf8]{inputenc}
 \RequirePackage{mathptmx}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Redefine \maketitle to produce the typical US NCM paper header
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \def\@maketitle{%
     \newpage%
     \begin{center}%
     {%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % These lines should be edited before the new conference
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     10\textsuperscript{th} U.S. National Combustion Meeting\\%
     Organized by the Eastern States Section of the Combustion Institute\\%
     April 23--26, 2017\\%
     College Park, Maryland\par\vspace{\baselineskip}%
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % End editing section
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     }%
     {\fontsize{18pt}{21.6pt}\selectfont\@title\par}%
     {\fontsize{14pt}{16.8pt}\selectfont\itshape%
