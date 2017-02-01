@@ -66,7 +66,7 @@
     \fontsize{10pt}{12pt}\selectfont%
     \list{{\bfseries\abstractname:}}{%
             \listparindent=0.0in%
-            \itemindent=0.5in%
+            \itemindent=0.4in%
             \leftmargin=0.5in%
             \rightmargin=0.5in%
             \parsep=\z@\@plus\p@}%
