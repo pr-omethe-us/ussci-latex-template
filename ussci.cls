@@ -6,40 +6,14 @@
 
 \LoadClass{article}
 
-\RequirePackage{hyperref}
-\urlstyle{tt}
-\newcommand{\email}[1]{\href{mailto:{#1}}{\tt{\nolinkurl{#1}}}}
-
-\RequirePackage{calc}
-\RequirePackage{geometry}
-\geometry{
-    margin=1in,
-    headheight=14.5pt,
-    footskip=0.5in,
-    headsep=0.5in-\headheight
-}
-
 \RequirePackage{biblatex}
 
 \RequirePackage[T1]{fontenc}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage{mathptmx}
 
-\RequirePackage{fancyhdr}
-\fancypagestyle{plain}{%
-\fancyhf{}%
-\fancyhead[L]{Sub Topic: \papertopic}%
-\fancyfoot[C]{\thepage}%
-\renewcommand{\headrulewidth}{0pt}%
-\renewcommand{\footrulewidth}{0pt}%
-}
-\pagestyle{plain}
-
 \long\def\affiliation#1{\gdef\@affiliation{#1}}
 \let\@affiliation\@empty
-
-% \def\corremail#1{\gdef\@corremail{#1}}
-% \let\@corremail\@empty
 
 \def\@maketitle{%
   \newpage%
@@ -83,3 +57,26 @@
 \RequirePackage{authblk}
 \renewcommand\Authfont{\itshape}
 \renewcommand\Affilfont{\itshape\small}
+
+\RequirePackage{hyperref}
+\urlstyle{tt}
+\newcommand{\email}[1]{\href{mailto:{#1}}{\tt{\nolinkurl{#1}}}}
+
+\RequirePackage{calc}
+\RequirePackage{geometry}
+\geometry{
+    margin=1in,
+    headheight=14.5pt,
+    footskip=0.5in,
+    headsep=0.5in-\headheight
+}
+
+\RequirePackage{fancyhdr}
+\fancypagestyle{plain}{%
+\fancyhf{}%
+\fancyhead[L]{Sub Topic: \papertopic}%
+\fancyfoot[C]{\thepage}%
+\renewcommand{\headrulewidth}{0pt}%
+\renewcommand{\footrulewidth}{0pt}%
+}
+\pagestyle{plain}
