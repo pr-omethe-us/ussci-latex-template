@@ -7,52 +7,62 @@
 \LoadClass{article}
 
 \RequirePackage{biblatex}
+\RequirePackage{calc}
 
 \RequirePackage[T1]{fontenc}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage{mathptmx}
 
-\long\def\affiliation#1{\gdef\@affiliation{#1}}
-\let\@affiliation\@empty
-
 \def\@maketitle{%
-  \newpage%
-  \begin{center}%
-  \let\footnote\thanks%
+    \newpage%
+    \begin{center}%
     {%
     10\textsuperscript{th} U.S. National Combustion Meeting\\%
     Organized by the Eastern States Section of the Combustion Institute\\%
     April 23--26, 2017\\%
     College Park, Maryland\par\vspace{\baselineskip}%
     }%
-    {\fontsize{18pt}{21.6pt}\selectfont\@title \par}%
-    \vspace{\baselineskip}%
+    {\fontsize{18pt}{21.6pt}\selectfont\@title\par}%
     {\fontsize{14pt}{16.8pt}\selectfont\itshape%
       \begin{tabular}[t]{c}%
         \@author
       \end{tabular}\par}%
-    {\itshape \@affiliation}%
   \end{center}%
   \par%
 }
 
 \renewenvironment{abstract}{%
-  \if@twocolumn
-    \section*{\abstractname}%
-  \else%
     \fontsize{10pt}{12pt}\selectfont%
     \list{{\bfseries\abstractname:}}{%
             \listparindent=0.0in%
             \itemindent=0.4in%
             \leftmargin=0.5in%
             \rightmargin=0.5in%
-            \parsep=\z@\@plus\p@}%
+            \setlength{\topsep}{0pt}%
+            \setlength{\partopsep}{0pt}%
+            \parsep=\z@}%
     \item\relax
-  \fi}
-  {\endlist}
+}
+{\endlist}
+
+\newenvironment{keyword}{
+    \fontsize{10pt}{12pt}\selectfont\bfseries\itshape%
+    \list{{Keywords:}}{%
+            \listparindent=0.0in%
+            \itemindent=0.4in%
+            \leftmargin=0.5in%
+            \rightmargin=0.5in%
+            \parsep=\z@%
+            \setlength{\topsep}{0pt}%
+            \setlength{\partopsep}{0pt}%
+            \parskip=\z@}%
+    \item\relax
+}{\endlist}
+
+\def\sep{\unskip, }%
 
 \RequirePackage{titlesec}
-\titleformat{\section}{\normalfont\bfseries}{\thesection.\space}{0pt}{}
+\titleformat{\section}{\normalfont\bfseries}{\thesection.\space}{\z@}{}
 
 \RequirePackage{authblk}
 \renewcommand\Authfont{\itshape}
@@ -62,7 +72,6 @@
 \urlstyle{tt}
 \newcommand{\email}[1]{\href{mailto:{#1}}{\tt{\nolinkurl{#1}}}}
 
-\RequirePackage{calc}
 \RequirePackage{geometry}
 \geometry{
     margin=1in,
