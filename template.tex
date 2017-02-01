@@ -2,11 +2,10 @@
 
 % Remove this in the real document
 \usepackage{blindtext}
-
-%====================================================================
-% Replace "000" in the line below by your paper number
-\newcommand\papernumber{000}
-
+%======================================================================
+% Add your bibliography file here, replace template.bib
+\addbibresource{template.bib}
+%======================================================================
 % Replace "Reaction Kinetics" in the line below by your paper topic
 \newcommand\papertopic{Reaction Kinetics}
 
@@ -46,7 +45,20 @@ abstract itself.
 %====================================================================
 \section{Introduction}
 %
-\blindtext
+
+You can use the following cite commands:
+
+Single reference with number only: \cite{Zhao2013}
+
+Multiple references with number only: \cite{Affleck1967,Turanyi2014,uconnrcmpy}
+
+Single reference with two or fewer authors: \textcite{Affleck1967}
+
+Single reference with three or more authors: \textcite{Wang2011}
+
+Two references with authors: \textcite{Kee1996,Baumgardner2013}
+
+Three or more references with authors: \textcite{Kee1996,Baumgardner2013,Haworth2011}
 
 
 \section{Methods/Experimental}
@@ -69,5 +81,7 @@ abstract itself.
 This research was funded by \ldots
 
 \noindent\textbf{Page Limits:} The total length of the paper including references should be limited to 6 pages.
+
+\printbibliography[heading=bibintoc]
 
 \end{document}
