@@ -65,8 +65,8 @@
 \titleformat{\section}{\normalfont\bfseries}{\thesection.\space}{\z@}{}
 
 \RequirePackage{authblk}
-\renewcommand\Authfont{\itshape}
-\renewcommand\Affilfont{\itshape\small}
+\renewcommand\Authfont{\fontsize{14pt}{16.8pt}\selectfont\itshape}
+\renewcommand\Affilfont{\fontsize{12pt}{14.4pt}\selectfont\itshape}
 
 \RequirePackage{hyperref}
 \urlstyle{tt}
