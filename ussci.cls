@@ -46,7 +46,7 @@
   \begin{center}%
   \let\footnote\thanks%
     {%
-    10\textsuperscript{th} U. S. National Combustion Meeting\\%
+    10\textsuperscript{th} U.S. National Combustion Meeting\\%
     Organized by the Eastern States Section of the Combustion Institute\\%
     April 23--26, 2017\\%
     College Park, Maryland\par\vspace{\baselineskip}%
@@ -57,7 +57,6 @@
       \begin{tabular}[t]{c}%
         \@author
       \end{tabular}\par}%
-    \vspace{\baselineskip}%
     {\itshape \@affiliation}%
   \end{center}%
   \par%
@@ -80,3 +79,7 @@
 
 \RequirePackage{titlesec}
 \titleformat{\section}{\normalfont\bfseries}{\thesection.\space}{0pt}{}
+
+\RequirePackage{authblk}
+\renewcommand\Authfont{\itshape}
+\renewcommand\Affilfont{\itshape\small}
