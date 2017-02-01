@@ -10,40 +10,74 @@
 % Replace "Laminar Flames" in the line below by your paper topic
 \newcommand\papertopic{Reaction Kinetics}
 
-\begin{document}
-\title{ Title Goes Here }
-\author{
+
+\title{ Title of Paper }
+%\author{
 %
 % Insert the author names below
-A.\ Author$^{1,2}$ \and B.\ Author$^{2,*}$
+%Author Name$^{1,2}$ \and Author Name$^{2,*}$
 %
-}
-\affiliation{
+%}
+%\affiliation{
 %
 % Insert the affiliations below
-$^1$Department of Mechanical and Aerospace Engineering,
-Case Western Reserve University,
-Cleveland, OH
+%$^1$Department, Institution, Address, Country
+%
+%$^2$Department, Institution, Address, Country
+%
+%$^*$ Corresponding Author: \email{user@example.com}
+%}
 
-$^2$Department of Mechanical Engineering,
-University of Connecticut,
-Storrs, CT
+\author[1]{Author Name}
+\author[1]{Author Name}
+\author[2]{Author Name}
+\author[2,*]{Author Name}
 
-$^*$ Corresponding Author: \email{user@example.com}
-}
+\affil[1]{Department, Institution, Address, Country}
+\affil[2]{Department, Institution, Address, Country}
+\affil[*]{Corresponding author: \email{author@university.edu}}
+
+\begin{document}
 \maketitle
 
 %====================================================================
-\begin{abstract} % not to exceed 400 words
-\blindtext
-\end{abstract}
+\begin{abstract} % not to exceed 200 words
+Abstract should be between 150--200 words and should state briefly the purpose
+of the research, the principal results and major conclusions. An abstract is
+often presented separately from the article, so it must be able to stand alone.
+For this reason, References should be avoided, but if essential, then cite the
+author(s) and year(s). Also, non-standard or uncommon abbreviations should be
+avoided, but if essential they must be defined at their first mention in the
+abstract itself.
 
+% (Provide 2-4 keywords describing your research. Only abbreviations firmly
+% established in the field may be used. These keywords will be used for
+% sessioning/indexing purposes.)
+\textbf{Keywords: Keyword1, Keyword2, Keyword3, Keyword4}
+\end{abstract}
 
 %====================================================================
 \section{Introduction}
 %
+\blindtext
 
-%Unfortunately
-\Blindtext
+
+\section{Methods/Experimental}
+%
+\blindtext
+
+
+\section{Results and Discussion}
+%
+\blindtext
+
+
+\section{Conclusions}
+%
+\blindtext
+
+
+\section{Acknowledgements}
+This research was funded by \ldots
 
 \end{document}
