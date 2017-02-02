@@ -18,7 +18,10 @@
 % Remove this in the real document
 \usepackage{blindtext}
 %======================================================================
-% Add your bibliography file here, replace template.bib
+% BibLaTeX and biber (not BibTeX) are used to process the references,
+% so these packages must be installed on your system. All configuration
+% for the bibliography and citations are done in the ussci.cls file
+% Add your bibliography file here, replacing template.bib
 \addbibresource{template.bib}
 %======================================================================
 % Replace "Reaction Kinetics" in the line below by your paper topic
@@ -50,9 +53,9 @@ avoided, but if essential they must be defined at their first mention in the
 abstract itself.
 \end{abstract}
 
-% (Provide 2-4 keywords describing your research. Only abbreviations firmly
+% Provide 2-4 keywords describing your research. Only abbreviations firmly
 % established in the field may be used. These keywords will be used for
-% sessioning/indexing purposes.)
+% sessioning/indexing purposes. Use \sep between each keyword.
 \begin{keyword}
     Keyword1\sep Keyword2\sep Keyword3\sep Keyword4
 \end{keyword}
@@ -82,6 +85,10 @@ Three or more references with authors: \textcite{Kee1996,Baumgardner2013,Haworth
 
 
 \section{Results and Discussion}
+%
+\blindtext
+
+\subsection{Results}
 %
 \blindtext
 
