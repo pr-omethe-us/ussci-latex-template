@@ -104,6 +104,8 @@
 
 \RequirePackage{titlesec}
 \titleformat{\section}{\normalfont\bfseries}{\thesection.\space}{\z@}{}
+\titleformat{\subsection}{\normalfont\bfseries}{\thesubsection\space}{\z@}{}
+\titleformat{\subsubsection}{\normalfont\bfseries}{\thesubsubsection\space}{\z@}{}
 
 \RequirePackage{authblk}
 \renewcommand\Authfont{\fontsize{14pt}{16.8pt}\selectfont\itshape}
