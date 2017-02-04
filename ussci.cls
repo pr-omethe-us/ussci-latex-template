@@ -38,7 +38,7 @@
     maxcitenames=2,
     mincitenames=1,
     citestyle=numeric-comp,
-    giveninits=true,
+    firstinits=true,
     isbn=false,
     date=year
 ]{biblatex}
@@ -174,7 +174,7 @@
   \usebibmacro{bibindex}%
   \usebibmacro{begentry}%
   \usebibmacro{author/translator+others}%
-  \setunit{\printdelim{nametitledelim}}\newblock
+  \setunit{\labelnamepunct}\newblock
   \usebibmacro{title}%
   \newunit
   \printlist{language}%
@@ -229,7 +229,7 @@
   \usebibmacro{bibindex}%
   \usebibmacro{begentry}%
   \usebibmacro{author/translator+others}%
-  \setunit{\printdelim{nametitledelim}}\newblock
+  \setunit{\labelnamepunct}\newblock
   \usebibmacro{title}%
   \newunit
   \printlist{language}%
@@ -268,7 +268,7 @@
   \usebibmacro{bibindex}%
   \usebibmacro{begentry}%
   \usebibmacro{author/translator+others}%
-  \setunit{\printdelim{nametitledelim}}\newblock
+  \setunit{\labelnamepunct}\newblock
   \usebibmacro{title}%
   \newunit
   \printfield{howpublished}
@@ -301,7 +301,7 @@
   \usebibmacro{bibindex}%
   \usebibmacro{begentry}%
   \usebibmacro{author}%
-  \setunit{\printdelim{nametitledelim}}\newblock
+  \setunit{\labelnamepunct}\newblock
   \usebibmacro{title}%
   \newunit
   \printlist{language}%
