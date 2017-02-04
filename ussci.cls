@@ -2,7 +2,7 @@
 %                             ussci.cls
 %
 % LaTeX class for papers conforming to the United States Sections of
-% the Combustion Institue style guide.
+% the Combustion Institute style guide.
 %
 % Authors:
 %     Bryan W. Weber, University of Connecticut
