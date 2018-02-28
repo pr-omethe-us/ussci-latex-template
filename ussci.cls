@@ -38,7 +38,7 @@
     maxcitenames=2,
     mincitenames=1,
     citestyle=numeric-comp,
-    firstinits=true,
+    giveninits=true,
     isbn=false,
     date=year
 ]{biblatex}
