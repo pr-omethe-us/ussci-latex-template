@@ -13,6 +13,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Removed
 
+## [0.3.1]
+### Changed
+- Increased page length to 10 pages
+
 ## [0.3]
 ### Changed
 - Updated for 11th US National Meeting (2019)
