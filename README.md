@@ -1,9 +1,20 @@
-# 2017 US National Combustion Meeting LaTeX Template
+# 2019 US National Combustion Meeting LaTeX Template
 
 This repository contains the (unofficial) LaTeX template for the
 United States Sections of the Combustion Institute. It has been
 tested with TeXLive 2015 and is expected to work with any newer
-versions of TeXLive and MikTeX. The template uses the following
+versions of TeXLive and MikTeX.
+
+## Instructions
+
+1. Download a zip file of this repository and extract it
+2. Open and try to build the `template.tex` file to make sure that everything works properly
+3. If your references don't end up as numbers, make sure that your TeX environment/editor is set to use biber to compile the references. By default, most editors (such as TeXStudio) default to using BibTeX.
+4. Copy the `template.tex` file and edit it to add your paper content
+
+## Dependencies
+
+The template uses the following
 packages that must be installed with their dependencies:
 
 * biblatex
