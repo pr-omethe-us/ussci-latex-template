@@ -368,7 +368,7 @@
 % Make sure that URL is not printed if DOI is available
 \renewbibmacro*{doi+eprint+url}{%
   \iftoggle{bbx:doi}
-  {\iffieldundef{url}{\printfield{doi}}{}}
+  {\iffieldundef{url}{\printfield{doi}}{\iffieldundef{doi}{}{\printfield{doi}}}}
   {}%
   \newunit\newblock
   \iftoggle{bbx:eprint}
