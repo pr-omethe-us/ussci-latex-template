@@ -356,7 +356,7 @@
 
 % Reformat the editor field of edited books to match CNF
 % Should look like E. Editor (Ed.) or E. Editor, E. Editor (Eds.)
-\DeclareNameAlias{editorin}{first-last}
+\DeclareNameAlias{editorin}{given-family}
 \newbibmacro*{byeditor:in}{%
   \ifnameundef{editor}{}{\printnames[editorin]{editor}%
   \addspace\bibsentence%
