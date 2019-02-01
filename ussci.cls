@@ -17,7 +17,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{ussci}[2018/08/23 v0.3
+\ProvidesClass{ussci}[2019/02/01 v0.3.2
  LaTeX document class for the USSCI]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
