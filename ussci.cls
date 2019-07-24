@@ -17,7 +17,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{ussci}[2018/08/23 v0.3
+\ProvidesClass{ussci}[2019/02/01 v0.3.2
  LaTeX document class for the USSCI]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
@@ -356,7 +356,7 @@
 
 % Reformat the editor field of edited books to match CNF
 % Should look like E. Editor (Ed.) or E. Editor, E. Editor (Eds.)
-\DeclareNameAlias{editorin}{first-last}
+\DeclareNameAlias{editorin}{given-family}
 \newbibmacro*{byeditor:in}{%
   \ifnameundef{editor}{}{\printnames[editorin]{editor}%
   \addspace\bibsentence%
@@ -368,7 +368,7 @@
 % Make sure that URL is not printed if DOI is available
 \renewbibmacro*{doi+eprint+url}{%
   \iftoggle{bbx:doi}
-  {\iffieldundef{url}{\printfield{doi}}{}}
+  {\iffieldundef{url}{\printfield{doi}}{\iffieldundef{doi}{}{\printfield{doi}}}}
   {}%
   \newunit\newblock
   \iftoggle{bbx:eprint}
