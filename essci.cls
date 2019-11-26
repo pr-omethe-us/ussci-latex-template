@@ -7,7 +7,9 @@
 % Authors:
 %     Bryan W. Weber, University of Connecticut
 %     Kyle E. Niemeyer, Oregon State University
-%.   (Template slightly modified for ESSCI meetings by Perrine Pepiot, Cornell University)
+%  Template slightly modified for ESSCI meetings by:
+%     Perrine Pepiot, Cornell University
+%     Richard West, Northeastern University
 %
 % This work is licensed under the Creative Commons Attribution 4.0
 % International License. To view a copy of this license, visit
@@ -18,7 +20,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{essci}[2019/02/01 v0.3.2
+\ProvidesClass{essci}[2019/11/25 v0.3.3-essci
  LaTeX document class for the ESSCI Technical Meetings]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
@@ -61,8 +63,8 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     Spring Technical Meeting \\%
     Eastern States Section of the Combustion Institute\\%
-    March 4--7, 2018\\%
-    State College, Pennsylvania\par\vspace{\baselineskip}%
+    March 8--11, 2020\\%
+    Columbia, South Carolina\par\vspace{\baselineskip}%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % End editing section
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

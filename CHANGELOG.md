@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 
 ### Changed
+- Modified for ESSCI Meeting
+- Restored to page length to 6 pages
 
 ### Removed
 

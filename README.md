@@ -5,6 +5,9 @@ United States Sections of the Combustion Institute. It has been
 tested with TeXLive 2015 and is expected to work with any newer
 versions of TeXLive and MikTeX.
 
+This branch contains the version for the Spring 2020 Technical Meeting
+of the Eastern States Section of the Combustion Institute.
+
 ## Instructions
 
 1. Download a zip file of this repository and extract it
