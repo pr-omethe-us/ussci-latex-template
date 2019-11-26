@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%                             ussci.cls
+%                             essci.cls
 %
 % LaTeX class for papers conforming to the United States Sections of
 % the Combustion Institute style guide.
@@ -7,6 +7,7 @@
 % Authors:
 %     Bryan W. Weber, University of Connecticut
 %     Kyle E. Niemeyer, Oregon State University
+%.   (Template slightly modified for ESSCI meetings by Perrine Pepiot, Cornell University)
 %
 % This work is licensed under the Creative Commons Attribution 4.0
 % International License. To view a copy of this license, visit
@@ -17,8 +18,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{ussci}[2019/02/01 v0.3.2
- LaTeX document class for the USSCI]
+\ProvidesClass{essci}[2019/02/01 v0.3.2
+ LaTeX document class for the ESSCI Technical Meetings]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
 \ProcessOptions \relax
@@ -49,7 +50,7 @@
 \RequirePackage{mathptmx}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Redefine \maketitle to produce the typical US NCM paper header
+% Redefine \maketitle to produce the typical ESSCI paper header
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \def\@maketitle{%
     \newpage%
@@ -58,10 +59,10 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % These lines should be edited before the new conference
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    11\textsuperscript{th} U.S. National Combustion Meeting\\%
-    Organized by the Western States Section of the Combustion Institute\\%
-    March 24--27, 2019\\%
-    Pasadena, California\par\vspace{\baselineskip}%
+    Spring Technical Meeting \\%
+    Eastern States Section of the Combustion Institute\\%
+    March 4--7, 2018\\%
+    State College, Pennsylvania\par\vspace{\baselineskip}%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % End editing section
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
