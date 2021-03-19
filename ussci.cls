@@ -60,8 +60,8 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     12\textsuperscript{th} U.S. National Combustion Meeting\\%
     Organized by the Central States Section of the Combustion Institute\\%
-    May 24--26, 2019\\%
-    Online\par\vspace{\baselineskip}%
+    May 24--26, 2019 (Virtual)\\%
+    College Station, Texas\par\vspace{\baselineskip}%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % End editing section
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
