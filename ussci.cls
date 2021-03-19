@@ -17,7 +17,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{ussci}[2019/02/01 v0.3.2
+\ProvidesClass{ussci}[2021/03/19 v1.0.0
  LaTeX document class for the USSCI]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
@@ -58,10 +58,10 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % These lines should be edited before the new conference
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    11\textsuperscript{th} U.S. National Combustion Meeting\\%
-    Organized by the Western States Section of the Combustion Institute\\%
-    March 24--27, 2019\\%
-    Pasadena, California\par\vspace{\baselineskip}%
+    12\textsuperscript{th} U.S. National Combustion Meeting\\%
+    Organized by the Central States Section of the Combustion Institute\\%
+    May 24--26, 2019 (Virtual)\\%
+    College Station, Texas\par\vspace{\baselineskip}%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % End editing section
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
