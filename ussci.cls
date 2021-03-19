@@ -8,16 +8,16 @@
 %     Bryan W. Weber, University of Connecticut
 %     Kyle E. Niemeyer, Oregon State University
 %
-% This work is licensed under the Creative Commons Attribution 4.0
-% International License. To view a copy of this license, visit
-% http://creativecommons.org/licenses/by/4.0/.
+% Unofficial USSCI LaTeX Template by Bryan Weber and Kyle Niemeyer is
+% marked with CC0 1.0 Universal. To view a copy of this license, visit
+% http://creativecommons.org/publicdomain/zero/1.0
 %
 % The source for this template can be found at
 % https://github.com/pr-omethe-us/ussci-latex-template
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{ussci}[2021/03/19 v1.0.0
+\ProvidesClass{ussci}[2021/03/19 v2.0.0
  LaTeX document class for the USSCI]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
