@@ -4,8 +4,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [ESSCI 2.0.1]
+## [ESSCI 2.0.2]
 - Updates for 2024 Eastern States ESSCI meeting
+- Page limit now 5 pages
 ## [2.0.0]
 ### Changed
 - Relicense to CC0

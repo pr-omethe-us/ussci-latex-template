@@ -20,7 +20,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{essci}[2023/09/13 v2.0.1-essci
+\ProvidesClass{essci}[2023/09/14 v2.0.2-essci
  LaTeX document class for the ESSCI Technical Meetings]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
