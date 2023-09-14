@@ -4,17 +4,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
-### Added
+## [2.0.0]
+### Changed
+- Relicense to CC0
 
+## [1.0.0]
+### Changed
+- Updates for 12th meeting in 2021
+
+## [0.3.2]
 ### Fixed
+- Typos
+- Citations where both DOI and URL are included prints neither
+- Deprecation warning for `first-last` option
 
 ### Changed
+- Software citation is Cantera
+
+## [ESSCI 0.3.1]
 - Modified for ESSCI Meeting
 - Restored to page length to 6 pages
-
-### Removed
-
 ## [0.3.1]
 ### Changed
 - Increased page length to 10 pages
@@ -51,7 +60,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - First commit of template
 
-[Unreleased]: https://github.com/pr-omethe-us/ussci-latex-template/compare/v0.3...HEAD
+[2.0.0]: https://github.com/pr-omethe-us/ussci-latex-template/compare/v1.0.0...v2.0.0
+[1.0.0]: https://github.com/pr-omethe-us/ussci-latex-template/compare/v0.3.2...v1.0.0
+[0.3.2]: https://github.com/pr-omethe-us/ussci-latex-template/compare/v0.3.1...v0.3.2
+[0.3.1]: https://github.com/pr-omethe-us/ussci-latex-template/compare/v0.3...v0.3.1
 [0.3]: https://github.com/pr-omethe-us/ussci-latex-template/compare/v0.2.2...v0.3
 [0.2.2]: https://github.com/pr-omethe-us/ussci-latex-template/compare/v0.2.1...v0.2.2
 [0.2.1]: https://github.com/pr-omethe-us/ussci-latex-template/compare/v0.2...v0.2.1

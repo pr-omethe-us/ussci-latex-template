@@ -11,16 +11,16 @@
 %     Perrine Pepiot, Cornell University
 %     Richard West, Northeastern University
 %
-% This work is licensed under the Creative Commons Attribution 4.0
-% International License. To view a copy of this license, visit
-% http://creativecommons.org/licenses/by/4.0/.
+% Unofficial USSCI LaTeX Template by Bryan Weber and Kyle Niemeyer is
+% marked with CC0 1.0 Universal. To view a copy of this license, visit
+% http://creativecommons.org/publicdomain/zero/1.0
 %
 % The source for this template can be found at
 % https://github.com/pr-omethe-us/ussci-latex-template
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{essci}[2019/11/25 v0.3.3-essci
+\ProvidesClass{essci}[2021/03/19 v2.0.0-essci
  LaTeX document class for the ESSCI Technical Meetings]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
