@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [ESSCI 2.0.1]
+- Updates for 2024 Eastern States ESSCI meeting
 ## [2.0.0]
 ### Changed
 - Relicense to CC0
@@ -22,8 +24,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Software citation is Cantera
 
 ## [ESSCI 0.3.1]
+### Changed
 - Modified for ESSCI Meeting
 - Restored to page length to 6 pages
+
 ## [0.3.1]
 ### Changed
 - Increased page length to 10 pages

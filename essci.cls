@@ -20,7 +20,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{essci}[2021/03/19 v2.0.0-essci
+\ProvidesClass{essci}[2023/09/13 v2.0.1-essci
  LaTeX document class for the ESSCI Technical Meetings]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
@@ -63,8 +63,8 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     Spring Technical Meeting \\%
     Eastern States Section of the Combustion Institute\\%
-    March 8--11, 2020\\%
-    Columbia, South Carolina\par\vspace{\baselineskip}%
+    March 10-13, 2024\\%
+    Athens, Georgia\par\vspace{\baselineskip}%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % End editing section
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
