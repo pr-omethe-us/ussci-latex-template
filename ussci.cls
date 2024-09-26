@@ -129,7 +129,7 @@
 \RequirePackage{fancyhdr}
 \fancypagestyle{plain}{%
 \fancyhf{}%
-\fancyhead[L]{Sub Topic: \papertopic}%
+\fancyhead[L]{Colloquium or Thematic Topic: \papertopic}%
 \fancyfoot[C]{\thepage}%
 \renewcommand{\headrulewidth}{0pt}%
 \renewcommand{\footrulewidth}{0pt}%
