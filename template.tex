@@ -7,6 +7,7 @@
 % Authors:
 %     Bryan W. Weber, University of Connecticut
 %     Kyle E. Niemeyer, Oregon State University
+%     Richard H. West, Northeastern University
 %
 % Unofficial USSCI LaTeX Template by Bryan Weber and Kyle Niemeyer is
 % marked with CC0 1.0 Universal. To view a copy of this license, visit
