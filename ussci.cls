@@ -27,6 +27,10 @@
 
 \RequirePackage{calc}
 
+% Load inputenc before biblatex (if it's needed at all)
+% LaTeX now defaults to UTF-8, so inputenc is often unnecessary unless you're working with older documents or specific encodings.
+\RequirePackage[utf8]{inputenc}
+
 %Set up biblatex
 \usepackage[
     backend=biber,
@@ -45,7 +49,6 @@
 
 % Load the Times New Roman font clone
 \RequirePackage[T1]{fontenc}
-\RequirePackage[utf8]{inputenc}
 \RequirePackage{mathptmx}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

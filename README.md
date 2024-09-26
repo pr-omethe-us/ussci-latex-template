@@ -4,6 +4,7 @@ This repository contains the (unofficial) LaTeX template for the
 United States Sections of the Combustion Institute. It has been
 tested with TeXLive 2020 and is expected to work with any newer
 versions of TeXLive and MikTeX.
+It also works in Overleaf.
 
 ## Instructions
 

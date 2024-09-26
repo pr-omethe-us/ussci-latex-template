@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Word document template
 ### Changed
 - Updated for 14th meeting in 2025
+### Fixed
+- Order of loading inputenc and biblatex
 
 ## [2.0.0]
 ### Changed
