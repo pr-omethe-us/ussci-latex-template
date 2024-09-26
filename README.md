@@ -8,7 +8,7 @@ It also works in Overleaf.
 
 ## Instructions
 
-1. Download a zip file of this repository and extract it
+1. Download a [zip file](https://github.com/pr-omethe-us/ussci-latex-template/archive/refs/heads/main.zip) of this repository and extract it
 2. Open and try to build the `template.tex` file to make sure that everything works properly
 3. If your references don't end up as numbers, make sure that your TeX environment/editor is set to use biber to compile the references. By default, most editors (such as TeXStudio) default to using BibTeX.
 4. Copy the `template.tex` file and edit it to add your paper content
