@@ -1,4 +1,4 @@
-# 2021 US National Combustion Meeting LaTeX Template
+# 2025 US National Combustion Meeting LaTeX Template
 
 This repository contains the (unofficial) LaTeX template for the
 United States Sections of the Combustion Institute. It has been
