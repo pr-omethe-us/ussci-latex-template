@@ -7,6 +7,7 @@
 % Authors:
 %     Bryan W. Weber, University of Connecticut
 %     Kyle E. Niemeyer, Oregon State University
+%     Richard H. West, Northeastern University
 %
 % Unofficial USSCI LaTeX Template by Bryan Weber and Kyle Niemeyer is
 % marked with CC0 1.0 Universal. To view a copy of this license, visit
@@ -46,8 +47,8 @@
 \maketitle
 
 %====================================================================
-\begin{abstract} % not to exceed 200 words
-Abstract should be between 150--200 words and should state briefly the purpose
+\begin{abstract} % about 200-400 words
+Abstract should be between 200--400 words and should state briefly the purpose
 of the research, the principal results and major conclusions. An abstract is
 often presented separately from the article, so it must be able to stand alone.
 For this reason, references should be avoided, but if essential, then cite the
@@ -66,7 +67,14 @@ abstract itself.
 %====================================================================
 \section{Introduction}
 
-You can use the following cite commands:
+After presenting at the 14th U.S. National Combustion Meeting you might choose to submit your work for publication in the {\em Proceedings of the Combustion Institute}. 
+To make that process easier, we recommend anticipating the requirements of that publication. Refer to a recent issue for style, content, and formatting. 
+Although these guidelines will not be enforced for the current submission, it will save you time later if you comply with them from the beginning: 
+Figures and tables should ideally fit in a single column, which is 2.67 in (67.7 mm).  
+Double-column figures and tables should be sized for legibility and must fit within a width of 5.67 in (144 mm). 
+
+This \LaTeX\ template is set up to be used with the {\tt biber} bibliography back-end and {\tt biblatex} package instead of {\tt bibtex} and {\tt natbib}.
+With it you can use the following cite commands:
 
 Single reference with number only: \cite{Zhao2013}
 
@@ -79,6 +87,8 @@ Single reference with three or more authors: \textcite{Wang2011}
 Two references with authors: \textcite{Kee1996,Baumgardner2013}
 
 Three or more references with authors: \textcite{Kee1996,Baumgardner2013,Haworth2011}
+
+However, the \LaTeX\ template for submission to the 40th {\em Proceedings of the Combustion Institute} used {\tt bibtex} and {\tt natbib}, so your subsequent submission to the next {\em Proceedings} might be most straightforward if you stick to simple \verb|\cite{}| commands. Then you should have no problems moving your manuscript across.
 
 \section{Methods/Experimental}
 %

@@ -7,6 +7,7 @@
 % Authors:
 %     Bryan W. Weber, University of Connecticut
 %     Kyle E. Niemeyer, Oregon State University
+%     Richard H. West, Northeastern University
 %
 % Unofficial USSCI LaTeX Template by Bryan Weber and Kyle Niemeyer is
 % marked with CC0 1.0 Universal. To view a copy of this license, visit
@@ -17,7 +18,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{ussci}[2021/03/19 v2.0.0
+\ProvidesClass{ussci}[2024/09/25 v2.1.0
  LaTeX document class for the USSCI]
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{article}}
@@ -26,6 +27,10 @@
 \LoadClass{article}
 
 \RequirePackage{calc}
+
+% Load inputenc before biblatex (if it's needed at all)
+% LaTeX now defaults to UTF-8, so inputenc is often unnecessary unless you're working with older documents or specific encodings.
+\RequirePackage[utf8]{inputenc}
 
 %Set up biblatex
 \usepackage[
@@ -45,7 +50,6 @@
 
 % Load the Times New Roman font clone
 \RequirePackage[T1]{fontenc}
-\RequirePackage[utf8]{inputenc}
 \RequirePackage{mathptmx}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -58,10 +62,10 @@
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % These lines should be edited before the new conference
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    12\textsuperscript{th} U.S. National Combustion Meeting\\%
-    Organized by the Central States Section of the Combustion Institute\\%
-    May 24--26, 2019 (Virtual)\\%
-    College Station, Texas\par\vspace{\baselineskip}%
+    14\textsuperscript{th} U.S. National Combustion Meeting\\%
+    Organized by the Eastern States Section of the Combustion Institute\\%
+    March 16--19, 2025\\%
+    Boston, Massachusetts\par\vspace{\baselineskip}%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % End editing section
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -129,7 +133,7 @@
 \RequirePackage{fancyhdr}
 \fancypagestyle{plain}{%
 \fancyhf{}%
-\fancyhead[L]{Sub Topic: \papertopic}%
+\fancyhead[L]{Colloquium or Thematic Topic: \papertopic}%
 \fancyfoot[C]{\thepage}%
 \renewcommand{\headrulewidth}{0pt}%
 \renewcommand{\footrulewidth}{0pt}%
